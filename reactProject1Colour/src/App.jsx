@@ -5,7 +5,7 @@ import { useState } from 'react'
 function App() {
   const [color, setColour] = useState("olive")
   return (
-     <div className='w-full h-screen duration-200 '
+     <div className='w-full h-screen duration-200 item-center'
      style={{backgroundColor: color}}
      >
       <div className='fixed flex flex-wrap 
